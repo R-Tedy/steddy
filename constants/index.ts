@@ -27,7 +27,7 @@ export const skillsSheet = [
 
 export const worksLists = [
   {
-    category: 'webDev',
+    category: 'Website Development',
     title: 'Websites',
     data : [
       {
@@ -46,7 +46,7 @@ export const worksLists = [
       {
         title: 'Movie Site',
         intro: 'A movie site showcasing trending movies and the latest movies.',
-        img: '/movie_appa',
+        img: '/movie_appa.png',
         siteUrl: 'https://movieappa.onrender.com',
         gitUrl: 'https://github.com/R-Tedy/MovieAppA',
         stats: [
