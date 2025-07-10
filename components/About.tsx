@@ -5,7 +5,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section className='p-4 flex flex-col-reverse lg:flex-row'>
+    <section className='p-4 flex flex-col-reverse lg:flex-row' id='about'>
       <div className='flex-1 lg:pl-12'>
         <h2 className='uppercase text-green-400 font-bold font-playfair text-lg'>
           And who am I?

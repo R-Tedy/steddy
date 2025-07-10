@@ -12,6 +12,11 @@ const Header = () => {
                 Home
               </NavigationMenuLink>
             </NavigationMenuItem>
+             <NavigationMenuItem>
+              <NavigationMenuLink href='/#about' className='cursor-pointer font-semibold text-sm'>
+                About
+              </NavigationMenuLink>
+            </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
       </nav>
