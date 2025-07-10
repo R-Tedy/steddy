@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Hero = () => {
   return (
-    <section className='p-2 mx-auto flex flex-col items-center max-h-screen w-full gap-2'>
+    <section className='p-2 mx-auto flex flex-col items-center min-h-screen w-full gap-2'>
       <div>
         <Image
           src={'/hero_01.png'}
@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
       <div>
         <h1 className='font-black text-6xl text-center font-playfair capitalize'>
-          Hi <br /> I am Stedy <br /> I make stuff
+          Hi <br /> I am <span className='italic text-7xl text-green-400'>Stedy</span> <br /> I make stuff
         </h1>
       </div>
       <div>
