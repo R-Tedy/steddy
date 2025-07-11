@@ -84,3 +84,39 @@ export const worksLists = [
   }
   
 ]
+
+export const workstages = [
+  {
+    number: 1,
+    title: 'Book a Service',
+    description: 'Jus book an appointment to discuss the project you would love my help with. I typically respond within 48hrs and set up a meeting to discuss the details.',
+    options: [
+      ''
+    ]
+  },
+  {
+    number: 2,
+    title: 'Planning Meeting',
+    description: 'This entails a virtual or physical meeting to discuss the details of your work. We will discuss details like pricing, timelines, project specifications and any other relevant data.'
+  },
+  {
+    number: 3,
+    title: 'Design/Review Cycle',
+    description: 'This phase involves designing and deciding on both the technical and visual compenonts of your project. This is a collaborative venture where I work with the client to bring thier visual to life. It entails constant communication with the client to correct and adjust the designs until a conclusion that is satisfactory to the client.'
+  },
+  {
+    number: 4,
+    title: 'Development/Testing Cycle',
+    description: 'This phase entails the implimentation of the design into a working prototype and testing the prototype. I am thorough and I follow the industry standards while using the latest and most efficient technologies to build the prototype. The client receives regular updates on the progress.'
+  },
+  {
+    number: 5,
+    title: 'Project Completion/Delivery',
+    description: 'On completion of the project and approval that it meets the clients desire, the final product is delivered.'
+  },
+  {
+    number: 6,
+    title: '1 Month Free Maintenance',
+    description: 'I also provide 30days of free consultation and maintenance services incase of any issues with the product. I also provide training to the client on how to use the product.'
+  },
+]
