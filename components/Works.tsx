@@ -59,24 +59,24 @@ const Works = () => {
                 </button>
               </nav>
               <div className='flex justify-center relative py-2'>
-                <div className='flex justify-between items-center w-full absolute bottom-6/12'>
+                <div className='flex justify-between items-center w-full absolute lg:bottom-6/12 bottom-5/12'>
                   <Button
                     onClick={() => goToProject(secondIndex + 1)}
                     className='cursor-pointer font-semibold'
-                    variant='outline'
+                    variant='secondary'
                   >
                     {nextProject.title}
                   </Button>
                   <Button
                     onClick={() => goToProject(secondIndex - 1)}
                     className='cursor-pointer font-semibold'
-                    variant='outline'
+                    variant='secondary'
                   >
                     {prevProject.title}
                   </Button>
                 </div>
                 <div className='px-4 pt-4 border bg-white/10 rounded-2xl w-full lg:w-8/12 flex flex-col gap-1 lg:flex-row'>
-                  <div>
+                  <div className='flex flex-col gap-2'>
                     <h3 className='font-playfair font-bold text-lg border-b'>
                       {currentProject.title}
                     </h3>
@@ -105,12 +105,12 @@ const Works = () => {
                           ))}
                         </ul>
                         <div className='flex justify-center items-center flex-wrap gap-4 p-4'>
-                          <Button className='font-semibold '>
+                          <Button asChild className='font-semibold '>
                             <Link href={currentProject.siteUrl} target='blank'>
                               Visit Site
                             </Link>
                           </Button>
-                          <Button className='font-semibold '>
+                          <Button asChild className='font-semibold '>
                             <Link href={currentProject.gitUrl} target='blank'>
                               Git Repo
                             </Link>
@@ -118,14 +118,13 @@ const Works = () => {
                         </div>
                     </div> 
                   </div>
-                  <Image
-                    src={currentProject.img}
-                    alt={currentProject.title}
-                    width={250}
-                    height={250}
-                    className='object-cover w-full h-72 rounded-t-2xl lg:w-5/12'
-                  />
-                  
+                    <Image
+                      src={currentProject.img}
+                      alt={currentProject.title}
+                      width={250}
+                      height={250}
+                      className='object-cover w-full h-72 rounded-t-2xl lg:w-5/12'
+                    />
                 </div>
               </div>
             </>
