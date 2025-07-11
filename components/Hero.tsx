@@ -28,7 +28,7 @@ const Hero = () => {
       </div>
       <div>
         <Button className='cursor-pointer font-bold' asChild>
-          <Link href={'/book_service'} className='font-bold'>
+          <Link href={'/#appointment'} className='font-bold'>
             Book a Service
           </Link>
         </Button>

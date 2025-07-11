@@ -22,7 +22,7 @@ const About = () => {
             {skillsSheet.map((skill, index) => (
               <div
                 key={index}
-                className='w-64 p-1 rounded-2xl cursor-pointer hover:bg-white/10 px-5 border'
+                className='w-full md:w-64 p-1 rounded-2xl cursor-pointer hover:bg-white/10 px-5 border'
               >
                 <Image
                   src={skill.img}

@@ -1,5 +1,7 @@
+'use client'
 import React from 'react'
 import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList } from './ui/navigation-menu'
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
 const Header = () => {
   return (
@@ -20,6 +22,15 @@ const Header = () => {
           </NavigationMenuList>
         </NavigationMenu>
       </nav>
+
+      <FloatingWhatsApp
+        phoneNumber='+254759693618'
+        accountName='Stedy'
+        avatar='/logo.svg'
+        statusMessage=''
+        chatMessage='Hi, How can I be of help?'
+        darkMode={true}
+      />
     </>
   )
 }

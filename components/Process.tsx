@@ -39,7 +39,7 @@ const Process = () => {
             </div>
             <div className='flex items-center justify-center pt-4'>
               <Button asChild className='font-bold capitalize'>
-                <Link href={'/book_service'}>
+                <Link href={'/#appointment'}>
                   Book an appointment
                 </Link>
               </Button>
