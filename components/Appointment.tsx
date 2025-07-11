@@ -8,7 +8,7 @@ const Appointment = () => {
         <span>Made up your mind about working with me?</span> <br />
         <span className='text-2xl text-green-400 font-bold'>Book an appointment</span>
       </h2>
-      <div className='flex items-center justify-center p-4'>
+      <div className='flex items-center justify-center py-4'>
         <AppointmentForm/>
       </div>
     </section>
