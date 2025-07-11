@@ -1,4 +1,5 @@
 import About from '@/components/About'
+import Appointment from '@/components/Appointment'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Process from '@/components/Process'
@@ -13,6 +14,7 @@ const page = () => {
       <About/>
       <Works/>
       <Process/>
+      <Appointment/>
     </>
   )
 }
