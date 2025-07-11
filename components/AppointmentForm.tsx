@@ -9,10 +9,10 @@ import { Button } from './ui/button'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select'
 
 const formSchema = z.object({
-  name: z.string().min(2).max(50),
-  phone: z.string().min(10).max(14),
+  name: z.string().min(2,'Input a valid name.').max(50),
+  phone: z.string().min(10, 'Input a valid phone number').max(14),
   email: z.string().email('Input a valid email adress'),
-  service: z.string().min(2),
+  service: z.string().min(2, 'Select a valid service'),
 })
 
 const AppointmentForm = () => {
