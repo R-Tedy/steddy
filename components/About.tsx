@@ -19,28 +19,39 @@ const About = () => {
           <h2 className='font-playfair font-semibold text-lg capitalize text-green-400 '>
             Skills Sheet
           </h2>
-          <div className='flex gap-4 flex-wrap items-center justify-center p-4'>
+          <div className='flex gap-4 flex-wrap items-center justify-center py-4'>
             {skillsSheet.map((skill, index) => (
               <div
                 key={index}
-                className='w-full md:w-64 p-1 rounded-2xl  px-5 border '
+                className='w-full md:w-64 py-3 rounded-2xl  px-5 border '
               >
-                <div>
-                 <Image
-                    src={skill.img}
-                    alt={skill.skill}
-                    width={50}
-                    height={50}
-                  />
-                  <p className='font-semibold font-sans text-lg'>
-                    {skill.skill}
-                  </p> 
+                <div className='flex justify-between items-center'>
+                  <div >
+                    <Image
+                      src={skill.img}
+                      alt={skill.skill}
+                      width={50}
+                      height={50}
+                    />
+                    <p className='font-semibold font-sans text-lg'>
+                      {skill.skill}
+                    </p> 
+                  </div>
+                  <Link href={`/${skill.id}`}>
+                    <Image
+                      src={'/icons/angle_arrow.svg'}
+                      alt='arrow'
+                      width={24}
+                      height={24}
+                      className='p-1 size-9 border-green-400 rounded-full border'
+                    />
+                  </Link>
                 </div>
-                <Button asChild className='capitalize my-3' variant='outline'>
+                {/* <Button asChild className='capitalize my-3' variant='outline'>
                   <Link href={`/${skill.id}`}>
                     View more on this skill
                   </Link>
-                </Button>
+                </Button> */}
               </div>
             ))}
           </div>
