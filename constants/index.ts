@@ -1,31 +1,31 @@
 export const skillsSheet = [
   {
-    id: 1,
+    id: '1',
     skill: 'Art and Design',
     img: '/icons/art.svg'
   },
   {
-    id: 2,
+    id: '2',
     skill: 'Front-end Dev',
     img: '/icons/front.svg'
   },
   {
-    id: 3,
+    id: '3',
     skill: 'Back-End Dev',
     img: '/icons/code.svg'
   },
   {
-    id: 4,
+    id: '4',
     skill: 'Systems Engineering',
     img: '/icons/systems.svg'
   },
   {
-    id: 5,
+    id: '5',
     skill: 'Electrical Engineering',
     img: '/icons/electrical.svg'
   },
   {
-    id: 6,
+    id: '6',
     skill: 'Musical Things',
     img: '/icons/music.svg'
   }

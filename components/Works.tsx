@@ -11,7 +11,7 @@ const Works = () => {
 
   const totalMajorCategories = worksLists.length;
 
-  const goToSlide = (index) => {
+  const goToSlide = (index : number) => {
     const newIndex = (index + totalMajorCategories) % totalMajorCategories;
     setCurrentIndex(newIndex);
   }
@@ -26,12 +26,12 @@ const Works = () => {
 
           const totalProjects =work.data.length;
 
-          const goToProject = (i) => {
+          const goToProject = (i : number) => {
             const newI = (i + totalProjects) % totalProjects;
             setSecondIndex(newI);
           };
 
-          const getProjectAt = (iOffset) => {
+          const getProjectAt = (iOffset : number) => {
             return work.data[(secondIndex + iOffset + totalProjects) % totalProjects]
           }
 
