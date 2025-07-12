@@ -2,6 +2,7 @@ import { skillsSheet } from '@/constants'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import { Button } from './ui/button'
 
 const About = () => {
   return (
@@ -22,17 +23,24 @@ const About = () => {
             {skillsSheet.map((skill, index) => (
               <div
                 key={index}
-                className='w-full md:w-64 p-1 rounded-2xl cursor-pointer hover:bg-white/10 px-5 border'
+                className='w-full md:w-64 p-1 rounded-2xl  px-5 border '
               >
-                <Image
-                  src={skill.img}
-                  alt={skill.skill}
-                  width={50}
-                  height={50}
-                />
-                <p className='font-semibold font-sans text-lg'>
-                  {skill.skill}
-                </p>
+                <div>
+                 <Image
+                    src={skill.img}
+                    alt={skill.skill}
+                    width={50}
+                    height={50}
+                  />
+                  <p className='font-semibold font-sans text-lg'>
+                    {skill.skill}
+                  </p> 
+                </div>
+                <Button asChild className='capitalize my-3' variant='outline'>
+                  <Link href={`/${skill.id}`}>
+                    View more on this skill
+                  </Link>
+                </Button>
               </div>
             ))}
           </div>
