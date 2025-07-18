@@ -11,9 +11,9 @@ const page = () => {
           <div 
             className={cn(
               'p-2 w-full rounded-xl flex items-center justify-center gap-1 flex-col md:w-5/12 lg:w-3/12',
-              status === 'compelete' && 'bg-green-500/75',
-              status === 'pending' && 'bg-amber-600/75',
-              status === 'incompelete' && 'bg-red-700/75'
+              status === 'compelete' && 'bg-green-500/50',
+              status === 'pending' && 'bg-amber-600/50',
+              status === 'incompelete' && 'bg-red-700/50'
             )}
             key={index}
           >
@@ -26,7 +26,7 @@ const page = () => {
           </div>
         ))}
       </section>
-      <section className='py-4'>
+      <section className='py-4 lg:pl-24'>
         <h2 className='font-playfair font-bold text-lg'>Project details</h2>
         <ProjectDetails/>
       </section>

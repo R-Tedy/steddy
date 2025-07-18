@@ -1,20 +1,22 @@
 import React from 'react'
 import { Table, TableBody, TableCaption, TableCell, TableHead, TableHeader, TableRow } from '../ui/table'
-import { projectDetails } from '@/constants'
+import { getAllAppointments } from '@/lib/actions/appointments.actions'
+
+const projectDetails = await getAllAppointments()
 
 const ProjectDetails = () => {
   return (
-    <Table>
+    <Table className='my-4'>
       <TableCaption>
         Current project details.
       </TableCaption>
       <TableHeader>
         <TableRow>
-          <TableHead>No.</TableHead>
-          <TableHead>Name</TableHead>
-          <TableHead>Phone</TableHead>
-          <TableHead>Email</TableHead>
-          <TableHead>Service</TableHead>
+          <TableHead className='font-bold text-md'>No.</TableHead>
+          <TableHead className='font-bold text-md'>Name</TableHead>
+          <TableHead className='font-bold text-md'>Phone</TableHead>
+          <TableHead className='font-bold text-md'>Email</TableHead>
+          <TableHead className='font-bold text-md'>Service</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>
