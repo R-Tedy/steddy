@@ -148,3 +148,27 @@ export const projectstatus = [
     number: 120
   }
 ]
+
+export const projectDetails = [
+  {
+    created_at: '12/07/2025',
+    name: 'Roland Stedy',
+    email: 'stedyroland@gamil.com',
+    phone: '0759693618',
+    service: 'Web Development',
+  },
+  {
+    created_at: '13/07/2015',
+    name: 'Augustine Stedy',
+    email: 'augustinestedy@gmail.com',
+    phone: '0798795610',
+    service: 'Mobile app development',
+  },
+  {
+    created_at: '14/07/2025',
+    name: 'Jack Muts',
+    email: 'jackmuts@gmail.com',
+    phone: '0793612736',
+    service: 'System development',
+  }
+]

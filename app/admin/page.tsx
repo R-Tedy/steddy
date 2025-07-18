@@ -1,3 +1,4 @@
+import ProjectDetails from '@/components/admin/ProjectDetails'
 import { projectstatus } from '@/constants'
 import { cn } from '@/lib/utils'
 import React from 'react'
@@ -24,6 +25,10 @@ const page = () => {
             </p>
           </div>
         ))}
+      </section>
+      <section className='py-4'>
+        <h2 className='font-playfair font-bold text-lg'>Project details</h2>
+        <ProjectDetails/>
       </section>
     </main>
   )
