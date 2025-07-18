@@ -15,8 +15,8 @@ const Header = () => {
               </NavigationMenuLink>
             </NavigationMenuItem>
              <NavigationMenuItem>
-              <NavigationMenuLink href='/#about' className='cursor-pointer font-semibold text-sm'>
-                About
+              <NavigationMenuLink href='/admin' className='cursor-pointer font-semibold text-sm'>
+                Admin
               </NavigationMenuLink>
             </NavigationMenuItem>
           </NavigationMenuList>

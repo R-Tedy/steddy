@@ -133,3 +133,18 @@ export const workStages = [
     image: '/icons/maintenance.svg'
   },
 ]
+
+export const projectstatus = [
+  {
+    status: 'compelete',
+    number: 13
+  },
+  {
+    status: 'pending',
+    number: 25
+  },
+  {
+    status: 'incompelete',
+    number: 120
+  }
+]
