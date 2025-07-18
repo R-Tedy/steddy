@@ -7,6 +7,8 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '
 import { Input } from './ui/input'
 import { Button } from './ui/button'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select'
+import { createAppointment } from '@/lib/actions/appointments.actions'
+import { redirect } from 'next/navigation'
 
 const formSchema = z.object({
   name: z.string().min(2,'Input a valid name.').max(50),
@@ -26,8 +28,16 @@ const AppointmentForm = () => {
     }
   });
 
-  const  onSubmit = (values: z.infer<typeof formSchema>) => {
-    console.log(values)
+  const  onSubmit = async (values: z.infer<typeof formSchema>) => {
+    console.log(values);
+
+    const appointment = await createAppointment(values);
+
+    if (appointment){
+      redirect(`/#works`)
+    } else {
+      console.log(`failed to create appontement`)
+    }
   };
 
   return (
@@ -79,7 +89,11 @@ const AppointmentForm = () => {
             <FormItem>
               <FormLabel className='font-bold'>Service</FormLabel>
               <FormControl>
-                <Select {...field}>
+                <Select
+                  onValueChange={field.onChange}
+                  value={field.value}
+                  defaultValue={field.value}
+                >
                   <SelectTrigger className='w-full'>
                     <SelectValue placeholder='Select your prefered service'/>
                   </SelectTrigger>

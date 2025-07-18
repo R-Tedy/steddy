@@ -37,6 +37,7 @@ export const worksLists = [
     title: 'Websites',
     data : [
       {
+        id: '3124',
         title: 'Madrinks Poa Site',
         intro: 'A simple cocktails website featuring various drinks in a captivating and engaging way',
         img: '/madrinks_poa.png',
@@ -50,6 +51,7 @@ export const worksLists = [
         ]
       },
       {
+        id: '6253',
         title: 'Movie Site',
         intro: 'A movie site showcasing trending movies and the latest movies.',
         img: '/movie_appa.png',
@@ -63,6 +65,7 @@ export const worksLists = [
         ]
       },
       {
+        id:'2311',
         title: 'StedFast',
         intro: 'This is a technological company website showcasing what services they have to offer and how to contact them',
         img: '/sted_fast.png',
@@ -75,6 +78,7 @@ export const worksLists = [
         ]
       },
       {
+        id: '8476',
         title: 'StedyRun',
         intro: 'This is a tours site that showcases various hiking destinations and allows you to book a session with the tour guides.',
         img: '/stedy_run.png',
