@@ -88,9 +88,9 @@ const Works = () => {
                         Features:
                       </h3>  
                         <ul className='flex flex-col gap-2'>
-                          {currentProject.stats.map((stat, i) => (
+                          {currentProject.stats.map((stat, index) => (
                             <li
-                              key={i}
+                              key={index}
                               className='flex gap-2'
                             >
                               <Image
