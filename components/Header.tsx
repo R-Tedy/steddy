@@ -14,11 +14,11 @@ const Header = () => {
                 Home
               </NavigationMenuLink>
             </NavigationMenuItem>
-             <NavigationMenuItem>
+             {/* <NavigationMenuItem>
               <NavigationMenuLink href='/admin' className='cursor-pointer font-semibold text-sm'>
                 Admin
               </NavigationMenuLink>
-            </NavigationMenuItem>
+            </NavigationMenuItem> */}
           </NavigationMenuList>
         </NavigationMenu>
       </nav>

@@ -2,32 +2,161 @@ export const skillsSheet = [
   {
     id: '1',
     skill: 'Art and Design',
-    img: '/icons/art.svg'
+    img: '/icons/art.svg',
+    desc: ['Art has been one of my most basic skills. As a young boy I would draw the cartoons I saw on TV. Slowly I honned this skills, growing from simple pencil cartoon drawings to detailed portrait drawings. I am currently working on my biro-pen drawings. This is not as easy as pencil work since there is little to no room for errors in the work I do, but I am very optimistic that I will be able to crack this frontier too.'],
+    callToAction: 'If you would love to be drawn or would like to buy any of my pieces, my contacts are at the bottom. Reach me!!!',
+    sampleWorks: [
+      {
+        id: 'image_01',
+        imgUrl: '/images/art/image_01.jpg',
+        alt: 'image_01'
+      },
+      {
+        id: 'image_02',
+        imgUrl: '/images/art/image_02.jpg',
+        alt: 'image_02'
+      },
+      {
+        id: 'image_03',
+        imgUrl: '/images/art/image_03.jpg',
+        alt: 'image_03'
+      },
+      {
+        id: 'image_04',
+        imgUrl: '/images/art/image_04.jpg',
+        alt: 'image_04'
+      },
+      {
+        id: 'image_05',
+        imgUrl: '/images/art/image_05.jpg',
+        alt: 'image_05'
+      },
+      {
+        id: 'image_06',
+        imgUrl: '/images/art/image_06.jpg',
+        alt: 'image_06'
+      },
+      {
+        id: 'image_07',
+        imgUrl: '/images/art/image_07.jpg',
+        alt: 'image_07'
+      },
+      {
+        id: 'image_08',
+        imgUrl: '/images/art/image_08.jpg',
+        alt: 'image_08'
+      },
+      {
+        id: 'image_09',
+        imgUrl: '/images/art/image_09.jpg',
+        alt: 'image_09'
+      }
+    ],
   },
   {
     id: '2',
     skill: 'Front-end Dev',
-    img: '/icons/front.svg'
+    img: '/icons/front.svg',
+    desc: [
+      'Hi',
+      'I design and develop amazing frontend applications that are resposnsive in all devices. I have 3+ years in working with fontend technologies such as HTML, CSS, Javascript, React, TailwindCSS, among others. I also have the ability to design visually appealing designs using Figma, this is greatly fuelled by my background in art and design. I am also able to use ReactNative to develop mobile application interfaces that are cross-platform.',
+    ],
+    callToAction: 'In summary, whichever idea you have of either an app or website you want to make, I am your best option in bringing it to life. Give me a call or a whatsapp!!!',
+    sampleWorks: [
+      {
+        id: 'front_01',
+        ImgUrl: 'madrinks_poa.png',
+        alt: 'madrinks poa image',
+        siteUrl: ''
+      },
+      {
+        id: 'front_02',
+        ImgUrl: 'movie_appa.png',
+        alt: 'movie app image',
+        siteUrl: ''
+      },
+      {
+        id: 'front_03',
+        ImgUrl: 'sted_fast.png',
+        alt: 'sted fast image',
+        siteUrl: ''
+      },
+      {
+        id: 'front_04',
+        ImgUrl: 'stedy_run.png',
+        alt: 'stedy run image',
+        siteUrl: ''
+      },
+    ],
   },
   {
     id: '3',
     skill: 'Back-End Dev',
-    img: '/icons/code.svg'
+    img: '/icons/code.svg',
+    desc: [
+      'Every world-class website needs a mind. In the age of the AI evolution, we all want and app or website that not only gives us information but one that can give us a service, feedback and be able to interact with us.',
+      'So.... I have skills in python, javascript and sql. Armed with these I am able to create robust and scalable backend systems to store, manage and manipulate data based on your preference.'
+    ],
+    callToAction: 'There is no need of worrying about what or how that app will come to life, bring it to me, I will make it both look good and work efficiently.',
+    sampleWorks: [
+      {
+        id: 'back_01',
+        ImgUrl: 'madrinks_poa.png',
+        alt: 'madrinks poa image',
+        siteUrl: ''
+      },
+      {
+        id: 'back_02',
+        ImgUrl: 'movie_appa.png',
+        alt: 'movie app image',
+        siteUrl: ''
+      },
+      {
+        id: 'back_03',
+        ImgUrl: 'sted_fast.png',
+        alt: 'sted fast image',
+        siteUrl: ''
+      },
+      {
+        id: 'back_04',
+        ImgUrl: 'stedy_run.png',
+        alt: 'stedy run image',
+        siteUrl: ''
+      },
+    ],
   },
   {
     id: '4',
     skill: 'Systems Engineering',
-    img: '/icons/systems.svg'
+    img: '/icons/systems.svg',
+    desc: [
+      'Hi',
+      'I know you are wondering what a system is and what system engineering is, so, lemme try and explain. A system is a collection of components, functions or mechanism arranged in a way such as to solve a particular problem that would otherwise take a lot of man-power, finances, resources or too many isolated mechanisms.',
+      'System Engineering hence is the ability to break a problem into executable commands, mechanisms or functions that solve it in the fastest, best and most cost effective way.',
+      'So, my background and an Electrical and Electronics Engineer, a Leader, a Sofware Developer and Artists equip me with both the analytical and creative mind to be able to find the best possible way to solve any problem I am presented with.'
+    ],
+    callToAction: "Don't sit on that great Idea, Talk to me!!!"
   },
   {
     id: '5',
     skill: 'Electrical Engineering',
-    img: '/icons/electrical.svg'
+    img: '/icons/electrical.svg',
+    desc: [
+      'I have a Bachelor of Science degree in Electrical and Electronics Engineering.',
+      'Armed with this very powerful and interesting degree, I am able to design electrical systems and circuits. I am also skilled in working on the manufacturing, maintenance and building of both electrical and electronics systems and circuits. I am basically your one stop for anything electrical or technological.'
+    ],
+    callToAction: 'So, incase you need someone to take care of your "Current" issues. Give me a Call or WhatsApp.'
   },
   {
     id: '6',
     skill: 'Musical Things',
-    img: '/icons/music.svg'
+    img: '/icons/music.svg',
+    desc: [
+      'Music is Wow!!!',
+      'I love every aspect of the musical proccess from the singing to production to performance to karaoke... I love it all',
+      'I am a singer and songwriter. I also produce music for my friends and I love the performing arts.'
+    ],
+    callToAction: 'You are really welcome to my artistic universe. Call me!!! or WhatsApp!!!'
   }
 ]
 
