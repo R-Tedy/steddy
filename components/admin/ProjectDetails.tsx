@@ -1,8 +1,7 @@
 import React from 'react'
 import { Table, TableBody, TableCaption, TableCell, TableHead, TableHeader, TableRow } from '../ui/table'
 import { getAllAppointments } from '@/lib/actions/appointments.actions'
-
-const projectDetails = await getAllAppointments()
+import { projectDetails } from '@/constants'
 
 const ProjectDetails = () => {
   return (
