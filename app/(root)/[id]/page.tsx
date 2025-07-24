@@ -58,21 +58,27 @@ const page =async ({params} : skillsSessionProps) => {
               </Button>
               <div className='w-full flex gap-5 flex-wrap items-center justify-center p-2'>
                 {skill.sampleWorks?.map((sample, index) => (
-                  <div
+                  <Link
                     key={sample.id}
-                    className='w-full md:w-5/12 lg:w-3/12 h-72 flex flex-col'
+                    className='w-full md:w-5/12 lg:w-3/12 flex flex-col'
+                    href={sample.imgUrl}
                   >
-                    <Image
-                      src={sample.imgUrl}
-                      alt={sample.alt}
-                      width={250}
-                      height={250}
-                      className='object-cover w-full h-[90%] rounded-2xl border-4 border-white opacity-50'
-                    />
-                    <p className='font-black text-2xl text-center font-playfair'>
-                      {index + 1}
-                    </p>
-                  </div>
+                    <div
+                      className='w-full h-72'
+                    >
+                      <Image
+                        src={sample.imgUrl}
+                        alt={sample.alt}
+                        width={250}
+                        height={250}
+                        className='object-cover w-full h-[90%] rounded-2xl border-4 border-white opacity-50'
+                      />
+                      <p className='font-black text-2xl text-center font-playfair'>
+                        {index + 1}
+                      </p>
+                    </div>
+                  </Link>
+                  
                 ))}
               </div>
 
