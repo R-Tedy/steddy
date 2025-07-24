@@ -65,25 +65,25 @@ export const skillsSheet = [
     sampleWorks: [
       {
         id: 'front_01',
-        ImgUrl: 'madrinks_poa.png',
+        imgUrl: '/images/web/madrinks_poa.png',
         alt: 'madrinks poa image',
         siteUrl: ''
       },
       {
         id: 'front_02',
-        ImgUrl: 'movie_appa.png',
+        imgUrl: '/images/web/movie_appa.png',
         alt: 'movie app image',
         siteUrl: ''
       },
       {
         id: 'front_03',
-        ImgUrl: 'sted_fast.png',
+        imgUrl: '/images/web/sted_fast.png',
         alt: 'sted fast image',
         siteUrl: ''
       },
       {
         id: 'front_04',
-        ImgUrl: 'stedy_run.png',
+        imgUrl: '/images/web/stedy_run.png',
         alt: 'stedy run image',
         siteUrl: ''
       },
@@ -101,25 +101,25 @@ export const skillsSheet = [
     sampleWorks: [
       {
         id: 'back_01',
-        ImgUrl: 'madrinks_poa.png',
+        imgUrl: '/images/web/madrinks_poa.png',
         alt: 'madrinks poa image',
         siteUrl: ''
       },
       {
         id: 'back_02',
-        ImgUrl: 'movie_appa.png',
+        imgUrl: '/images/web/movie_appa.png',
         alt: 'movie app image',
         siteUrl: ''
       },
       {
         id: 'back_03',
-        ImgUrl: 'sted_fast.png',
+        imgUrl: '/images/web/sted_fast.png',
         alt: 'sted fast image',
         siteUrl: ''
       },
       {
         id: 'back_04',
-        ImgUrl: 'stedy_run.png',
+        imgUrl: '/images/web/stedy_run.png',
         alt: 'stedy run image',
         siteUrl: ''
       },
